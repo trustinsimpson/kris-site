@@ -24,23 +24,23 @@ function IndexHeader() {
 
   return (
     <>
-      <div id="header-section" className="page-header clear-filter" filter-color="blue">
+      <div id="header-section" className="page-header clear-filter" filter-color="black">
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/welding.jpg") + ")",
+            backgroundImage: "url(" + require("assets/img/shop.jpg") + ")",
           }}
           ref={pageHeader}
         ></div>
         <Container>
           <div className="content-center brand">
-            <img
+            {/* <img
               alt="..."
-              className="welding-logo"
-              src={require("assets/img/weld-logo.png")}
-            ></img>
-            <h1 className="h1-seo">SEK Fabrication</h1>
-            <h3>A welding and fabrication shop built on passion and a dream.</h3>
+              className="car-logo"
+              src={require("assets/img/car-logo.png")}
+            ></img> */}
+            <h1 className="h1-seo">Craft Details</h1>
+            <h3>Life may be dirty, but your car shouldn't be.</h3>
           </div>
           {/* <h6 className="category category-absolute">
             Designed by{" "}

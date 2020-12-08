@@ -56,11 +56,11 @@ function IndexNavbar() {
                   document.getElementById("header-section").scrollIntoView();
                 }}
               >
-                SEK Fabrication
+                Craft Details
               </NavLink>
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
-              Welding and Fabrication Services
+              Detailing and Detailing Accessories
             </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
@@ -114,7 +114,7 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/SEK-Fabrication-108075677742785/"
+                  // href="https://www.facebook.com/SEK-Fabrication-108075677742785/"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -127,7 +127,7 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="mailto: lawson22small@gmail.com"
+                  // href="mailto: lawson22small@gmail.com"
                   target="_blank"
                   id="email-tooltip"
                 >

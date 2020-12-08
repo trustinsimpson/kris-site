@@ -5931,16 +5931,28 @@ td.rdtYear:hover {
     opacity: .6; }
 
 .clear-filter[filter-color="blue"] {
-  background: rgba(44, 44, 44, 0.2);
+  background: rgba(44, 57, 104, 0.9);
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 161, 224, 0.6));
+  background: -webkit-linear-gradient(90deg, rgba(44, 57, 104, 0.9), rgba(44, 57, 104, 0.5), rgba(157, 171, 221, 0.6));
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 161, 224, 0.6));
+  background: -o-linear-gradient(90deg, rgba(44, 57, 104, 0.9), rgba(44, 57, 104, 0.5), rgba(157, 171, 221, 0.6));
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 161, 224, 0.6));
+  background: -moz-linear-gradient(90deg, rgba(44, 57, 104, 0.9), rgba(44, 57, 104, 0.5), rgba(157, 171, 221, 0.6));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(3, 161, 224, 0.6));
+  background: linear-gradient(0deg, rgba(44, 57, 104, 0.9), rgba(44, 57, 104, 0.5), rgba(157, 171, 221, 0.6));
   /* Standard syntax */ }
+
+.clear-filter[filter-color="black"] {
+  background: rgba(0, 0, 0, 0.7);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+  /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+   /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+   /* For Firefox 3.6 to 15 */
+   background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+   /* Standard syntax */ }
 
 [data-background-color="blue"] {
   background-color: #2CA8FF; }

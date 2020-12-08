@@ -2,9 +2,12 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 import Cards from "./Card";
-import mig from "../../assets/img/mig-welder.jpg";
-import tig from "../../assets/img/tig-welder.jpg";
-import stick from "../../assets/img/stick-welder.jpg";
+import coupe from "../../assets/img/Mustang.webp";
+import sedan from "../../assets/img/Sedan.jpg";
+import truck from "../../assets/img/truck.jpg";
+import SUV from "../../assets/img/SUV.jpg";
+import int from "../../assets/img/Interior.jpg";
+import ex from "../../assets/img/exterior.jpg";
 
 // core components
 
@@ -16,13 +19,22 @@ function Services() {
         <Container className="text-center">
           <Row>
             <Col>
-          <Cards pic={ mig } title="MIG Welding" text="Metal inert gas welding. Great control, perfect for welding thinner steels or aluminum."/>
+          <Cards pic={ coupe } title="Coupes" text="Complete detail for compact cars and coupes. Only $100!"/>
             </Col>
             <Col>
-            <Cards pic={ tig } title="TIG Welding" text="Tungsten inert gas welding. Perfect for non-ferous metals like brass, copper, etc."/>
+            <Cards pic={ sedan } title="Sedans" text="Complete detail for full-sized sedans. Only $125!"/>
             </Col>
             <Col>
-            <Cards pic={ stick } title="Stick Welding" text="Perfect for welding dirty or rusty metal. Deep penetration allows for welding thicker materials."/>
+            <Cards pic={ truck } title="1/2 Ton / Mid-Size SUV" text="Complete detail for large vehicles. Only $150!"/>
+            </Col>
+            <Col>
+            <Cards pic={ SUV } title="Extra Large" text="Complete detail for heavy trucks and full sized SUVs. Only $170!"/>
+            </Col>
+            <Col>
+            <Cards pic={ int } title="Interior Only" text="Interior detail for any size vehicle. Starting at $70!"/>
+            </Col>
+            <Col>
+            <Cards pic={ ex } title="Exterior Only" text="Exterior detail for any size vehicle. Starting at $75!"/>
             </Col>
           </Row>
         </Container>
