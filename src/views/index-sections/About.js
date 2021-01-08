@@ -27,18 +27,13 @@ function About() {
             <Col className="text-center" lg="8" md="12">
               <h3 className="title">It started with a dream...</h3>
               <h5 className="description">
-                Since I was child, I knew I wanted to work for myself and that I
-                wasn't destined for an office, but I didn't know exactly what I
-                wanted to do. Over time, as I worked around my grandfather's
-                farm, I realized how important welding is in everyday equipment.
-                Eventually I began to see the importance of fabrication as a
-                whole and the dream was born! Years, trade school, a couple
-                welding jobs, and fab projects later - now that dream of working
-                for myself has become a reality!
+                I've always known I wanted to be a business owner, and cars have always been a passion.
+                In 2019 I decided it was time to finally pursue my dream and mix business with passion.
+                Craft Details is the result of that decision, and since it's foundation I've been proudly
+                serving the local community. 
               </h5>
               <h5 className="description">
-                Let me know what your needs are, and we'll figure out exactly
-                how I can help with your next project!
+                Reach out today, and let us know how we can best serve you!
               </h5>
             </Col>
             <Col className="text-center" lg="8" md="12">
@@ -53,15 +48,15 @@ function About() {
               <UncontrolledCollapse toggler="#linkToggler,#buttonToggler">
                 <Card color="neutral" id="about-card">
                   <CardBody>
-                    <h5 className="text-muted">
+                    <h5 className="text-muted mb-0">
                       <i className="now-ui-icons tech_mobile mr-1 align-middle"></i>
-                        (620) 224-8242
+                      (660) 464-0543
                     </h5>
-                    <hr className="w-50"></hr>
+                    {/* <hr className="w-50"></hr>
                     <h5 className="text-muted">
                       <i className="now-ui-icons ui-1_email-85 mr-1 align-middle"></i>
-                        lawson22small@gmail.com
-                    </h5>
+                        
+                    </h5> */}
                   </CardBody>
                 </Card>
               </UncontrolledCollapse>
@@ -78,7 +73,7 @@ function About() {
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="facebook"
-                href="https://www.facebook.com/SEK-Fabrication-108075677742785"
+                href="https://www.facebook.com/Craft-Details-104821051387770/"
                 id="tooltip735272548"
                 size="lg"
                 target="_blank"

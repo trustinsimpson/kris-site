@@ -114,7 +114,7 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  // href="https://www.facebook.com/SEK-Fabrication-108075677742785/"
+                  href="https://www.facebook.com/Craft-Details-104821051387770/"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -125,7 +125,7 @@ function IndexNavbar() {
                   Like us on Facebook
                 </UncontrolledTooltip>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   // href="mailto: lawson22small@gmail.com"
                   target="_blank"
@@ -135,9 +135,9 @@ function IndexNavbar() {
                   <p className="d-lg-none d-xl-none">Email</p>
                 </NavLink>
                 <UncontrolledTooltip target="#email-tooltip">
-                  Email us
+                  Contact us
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>
